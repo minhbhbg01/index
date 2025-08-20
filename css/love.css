@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.icon-love {
+    width: 400px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;  
+    background-color: #fff9f9;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*---------------------- body_left -------------------------*/
+.body_left {
+    width: 100px;
+    height: 100px;
+    left: 0;
+    bottom: 80%;
+    position: absolute;
+    z-index: 98;
+}
